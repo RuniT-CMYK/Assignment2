@@ -39,3 +39,8 @@ li a {
   padding: 10vh 4.3rem;
   text-decoration: none;
 }
+
+li a:hover {
+    background-color: #F1D3F8;
+    color: white;
+  }
