@@ -5,3 +5,37 @@ h1 {
     color: black;
     text-shadow: 0.2rem 0.2rem #d4d4d4;
 }
+
+#home {
+    height: 100vh;
+    width: 100%;
+}
+
+#home p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0.1rem 0.1rem #c397ce;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0rem;
+  padding: 0rem;
+  overflow: hidden;
+  background-color: #FBEAFF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 2.25rem;
+  text-align: center;
+  padding: 10vh 4.3rem;
+  text-decoration: none;
+}
