@@ -140,9 +140,9 @@ input[type=submit]:hover {
       font-size: 3rem;
   }
 
-  /* Gallery - Tablet */
+  /* Gallery */
   #content {
-    height: 1vh;
+    height: 85vh;
     width: auto;
   }
 
@@ -150,6 +150,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 5rem;
   margin: -3rem auto;
@@ -166,10 +167,4 @@ input[type=submit]:hover {
   object-fit: cover;
   width: 175%;
   }
-}
-
-/* Iphone - Portrait Mode */
-
-@media screen and (min-width: 528px) {
-  
 }
