@@ -48,7 +48,28 @@ li a:hover {
   
 
   /* Gallery */
+  .flexbox-container {
+    display: flex;
+    gap: 8.33rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 35%;
+    width: 95%;
+    margin: 0rem auto;
+}
 
+.flexbox-item {
+  width: 10.5rem;
+  height: 10.5rem;
+  margin: 0.9rem;
+  border: 0.4rem solid rgb(241, 211, 248);
+  background-color: rgb(217, 113, 217)
+}
+
+.flexbox-item img{
+  object-fit: cover;
+  width: 175%;
+}
   
 
 /* Contact Form */  
