@@ -117,4 +117,54 @@ input[type=submit]:hover {
     border: #000000;
 }
 
-/* Iphone */
+/* Tablet - Portrait Mode */
+
+@media screen and (min-width: 768px) {
+
+  li a {
+      width: auto;
+      padding: 2vh 2rem;
+      font-size: 1.5rem;
+  }
+  
+  #home {
+      width: auto;
+      height: 28rem;
+  }
+
+  #home p {
+      font-size: 0.9rem;
+  }
+
+  h1 {
+      font-size: 3rem;
+  }
+
+  /* Gallery - Tablet */
+  #content {
+    height: 85vh;
+    width: auto;
+  }
+
+  .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: -3rem auto;
+  }
+
+  .flexbox-item {
+  width: 10.5rem;
+  height: 17.5rem;
+  border: 0.4rem solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255)
+  }
+
+  .flexbox-item img{
+  object-fit: cover;
+  width: 175%;
+  }
+}
