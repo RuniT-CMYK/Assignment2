@@ -142,7 +142,7 @@ input[type=submit]:hover {
 
   /* Gallery - Tablet */
   #content {
-    height: 85vh;
+    height: 1vh;
     width: auto;
   }
 
@@ -166,4 +166,10 @@ input[type=submit]:hover {
   object-fit: cover;
   width: 175%;
   }
+}
+
+/* Iphone - Portrait Mode */
+
+@media screen and (min-width: 528px) {
+  
 }
